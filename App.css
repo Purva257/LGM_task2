@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .brand {
+    font-size: 1.2rem;
+  }
+  
+  .get-users-btn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .user-card {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .loader {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  
